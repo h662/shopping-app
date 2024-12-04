@@ -1,12 +1,11 @@
 import React from "react";
-import bannerImage from "../assets/banner.jpg";
 
 function Home() {
   return (
     <div className="p-6">
       <section className="mb-8">
         <img
-          src={bannerImage}
+          src="/assets/banner.jpg"
           alt="ShopEasy Banner"
           className="w-full h-64 object-cover rounded-md shadow-lg"
         />
